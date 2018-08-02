@@ -1,6 +1,6 @@
 module.exports = function main(str) {
     //检测非法输入，str应该为0-9之间组合的数字
-    var reg = /^[0-9]*[0-9][0-9]*$/;
+    var reg = /^[0-9]*$/;
     if(!reg.test(str))
     {
         console.error("Please check your input!\n");
